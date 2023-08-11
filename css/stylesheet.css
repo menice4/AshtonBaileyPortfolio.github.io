@@ -14,23 +14,47 @@ body{
 }
 #container{
     height: 95%;
-   
-    width: 75%;
-    margin-top: 1%;
-    margin-left: 12.5%;
+    width: 98%;
+   margin-left:1%;
+   margin-top: 1%;
  
  
   
 }
 #page-top{
-flex-direction: row;
+display: flex;
 height: 12.5%;
 background-color: black;
 }
 #page-middle{
     height: 85%;
     background-color: blue;
+    display: block;
 }
+#title{
+   
+    width: 100%;
+    font-size: 50px;
+    margin-right: 220px;
+    background-color: chartreuse;
+}
+#navbar{
+    margin-left:220px;
+    width:50%;
+    background-color: yellow;
+    display: flex;
+
+
+}
+.dropdown{
+  
+    align-self: center;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
 #page-bottom{
     height: 5%;
     background-color: blueviolet;
