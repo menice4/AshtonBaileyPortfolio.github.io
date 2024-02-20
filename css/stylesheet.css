@@ -1,6 +1,7 @@
 
 html{
     height: 100%;
+    color:rgb(236, 236, 236)
 }
 
 body{
@@ -8,7 +9,7 @@ body{
     width: 100%;
     margin: 0;
     min-height: 100%;
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.9);
   
 
 }
@@ -23,39 +24,65 @@ body{
 }
 #page-top{
 display: flex;
-height: 12.5%;
-background-color: black;
+height: 15%;
+background-color: rgb(0, 0, 0, .4);
+border-radius: 10px;
 }
 #page-middle{
     height: 85%;
-    background-color: blue;
+    background-color: rgb(58, 58, 61, .5);
     display: block;
+    border-radius: 10px;
 }
 #title{
    
     width: 100%;
+    text-align: center;
+    align-self: center;
     font-size: 50px;
-    margin-right: 220px;
-    background-color: chartreuse;
+    margin-right: 25px;
+    height: 50%;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, .0);
 }
 #navbar{
-    margin-left:220px;
-    width:50%;
-    background-color: yellow;
-    display: flex;
-
+    width:fit-content;
+    margin-right: 0px;
+    background-color:  rgb(0, 0, 0, .0);;
+    display:flex;
+    border-radius:10px;
+    
 
 }
 .dropdown{
   
     align-self: center;
-    font-size: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+    text-decoration: none;
+}
+.button{
+   height: 100%;
+   width: 100%;
+   font-size: 22px;
+   border-color: rgb(0,0,0, 0);
+   border-radius: 5px;
+   background-color: rgb(0, 0, 0, .1);
+   color:rgb(236, 236, 236)
+   
+}
+.button:hover{
+    color: aliceblue;
+    background-color:rgb(128, 128, 128, .5) ;
 }
 
 
 #page-bottom{
     height: 5%;
-    background-color: blueviolet;
+    background-color: rgb(0, 0, 0, .4);
+    border-radius: 5px;
 }
